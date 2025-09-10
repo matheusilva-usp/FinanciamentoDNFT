@@ -35,23 +35,23 @@ Para rodar o projeto, você precisará ter o **Foundry** instalado. O Foundry é
 1.  **Instalação do Foundry**
 
     Abra seu terminal e execute o seguinte comando:
-
-    `curl -L https://foundry.paradigm.xyz | bash`
-
+    ```
+    curl -L https://foundry.paradigm.xyz | bash
+    ```
     Siga as instruções para completar a instalação e certifique-se de que as ferramentas `forge` e `anvil` estão disponíveis no seu PATH.
 
 2.  **Clonar o Repositório**
 
     Clone este repositório para sua máquina local.
-
-    `git clone https://github.com/matheusilva-usp/FinanciamentoDNFT.git`
-
+    ```
+    git clone https://github.com/matheusilva-usp/FinanciamentoDNFT.git
+    ```
 3.  **Instalação de Dependências**
 
     O projeto utiliza contratos padronizados da biblioteca **OpenZeppelin** para segurança e confiabilidade. Dentro do diretório do projeto, instale as dependências com o seguinte comando:
-
-    `forge install OpenZeppelin/openzeppelin-contracts@v5.3.0`
-
+    ```
+    forge install OpenZeppelin/openzeppelin-contracts@v5.3.0
+    ```
 ---
 
 ### Como Rodar os Testes
@@ -61,15 +61,15 @@ Para garantir que o contrato está funcionando corretamente, você pode executar
 1.  **Inicie uma rede local (Anvil) com uma cópia da rede Polygon**
 
     Abra um terminal e execute:
-
-    `anvil --fork-url https://polygon-rpc.com -p 8545`
-
+    ```
+    anvil --fork-url https://polygon-rpc.com -p 8545
+    ```
 2.  **Execute os testes do contrato**
 
     Abra um novo terminal, navegue até a pasta do projeto e execute os testes, apontando para a rede local que você acabou de iniciar:
-
-    `forge test --fork-url http://127.0.0.1:8545 --gas-report`
-
+    ```
+    forge test --fork-url http://127.0.0.1:8545 --gas-report
+    ```
     O parâmetro `--gas-report` irá gerar um relatório detalhado do consumo de gas de cada função do contrato.
 
 ---
