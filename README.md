@@ -1,4 +1,4 @@
-# Modelo de Contrato Inteligente com dNFTs para Financiamento Coletivo no Futebol: Transparência e Engajamento via Blockchain
+# Contrato Inteligente com dNFTs para Financiamento Coletivo no Futebol: Transparência e Engajamento via Blockchain
 
 Este documento serve como guia e referência para o repositório do projeto.
 
